@@ -1,0 +1,23 @@
+lockfile_version: '1'
+generated_at: '2026-06-01T12:51:01.934075+00:00'
+apm_version: 0.16.0
+dependencies:
+- repo_url: danielmeppiel/java-to-react-modernizer
+  host: github.com
+  resolved_commit: a0dd0189d0a594d135d77346c2a737910a329935
+  resolved_ref: main
+  package_type: apm_package
+  deployed_files:
+  - .agents/skills/java-to-react-modernizer
+  - .github/agents/java-analyzer.agent.md
+  - .github/agents/react-migrator.agent.md
+  - .github/agents/security-deep.agent.md
+  - .github/agents/security-scan.agent.md
+  - .github/agents/verify-synth.agent.md
+  deployed_file_hashes:
+    .github/agents/java-analyzer.agent.md: sha256:ed0c2cd16d7ce6ec511014e911a31014a664a70690a409ba7ab03ab0b13b243d
+    .github/agents/react-migrator.agent.md: sha256:6bb6bf6954a60fc6cbb1b6f30d1e7caf46894c5a5bb65cb031acb185c089a15f
+    .github/agents/security-deep.agent.md: sha256:e85e1c3c486e31554b5b9b9c0e002a52ef01098dad561619f14945d5b906c653
+    .github/agents/security-scan.agent.md: sha256:2e94eb00ecc64ad80604f6cec08b4bf965dc4a3248604b332736df0c78574f86
+    .github/agents/verify-synth.agent.md: sha256:02b93035428673e27c563db58ff1e7f1754c614f84d0263962d4c10b0bf7a823
+  content_hash: sha256:eba429fc9152dfee7c09f51e0527d396a3b41537e9f776814bc11e748e89d096
