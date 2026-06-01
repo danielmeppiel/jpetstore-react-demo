@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "skill": "java-to-react-modernizer",
+  "description": "Dispatch trigger evals. should_fire = a Java->React migration intent (incl. indirect phrasings). should_not_fire = greenfield React, Java-to-Java upgrades, deployment, or unrelated work.",
+  "cases": [
+    { "query": "rewrite our Java backend UI in React", "should_fire": true, "split": "train" },
+    { "query": "get our bank app off JSP and onto React", "should_fire": true, "split": "train" },
+    { "query": "modernize the legacy Spring app to a JS frontend", "should_fire": true, "split": "train" },
+    { "query": "port these Stripes ActionBeans to a React frontend", "should_fire": true, "split": "train" },
+    { "query": "convert AccountController.java and account.jsp to React", "should_fire": true, "split": "train" },
+    { "query": "we want to get off Java for the customer portal", "should_fire": true, "split": "train" },
+    { "query": "migrate the JSF screens in this app to React components", "should_fire": true, "split": "val" },
+    { "query": "translate our servlet-based checkout flow into a React SPA", "should_fire": true, "split": "val" },
+    { "query": "replace our server-rendered Java UI with a JavaScript frontend", "should_fire": true, "split": "val" },
+    { "query": "turn this legacy Java petstore into a React app", "should_fire": true, "split": "val" },
+
+    { "query": "build a new React app from scratch", "should_fire": false, "split": "train" },
+    { "query": "scaffold a fresh React dashboard, no backend yet", "should_fire": false, "split": "train" },
+    { "query": "upgrade Spring Boot 2 to 3 in this service", "should_fire": false, "split": "train" },
+    { "query": "bump the Java version from 8 to 21", "should_fire": false, "split": "train" },
+    { "query": "deploy the React frontend to production", "should_fire": false, "split": "train" },
+    { "query": "set up CI/CD for our existing React app", "should_fire": false, "split": "train" },
+    { "query": "write unit tests for this Java service", "should_fire": false, "split": "val" },
+    { "query": "explain what this Java controller does", "should_fire": false, "split": "val" },
+    { "query": "migrate our database from Oracle to Postgres", "should_fire": false, "split": "val" },
+    { "query": "add a new endpoint to the Spring REST API", "should_fire": false, "split": "val" }
+  ]
+}

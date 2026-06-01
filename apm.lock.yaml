@@ -1,10 +1,10 @@
 lockfile_version: '1'
-generated_at: '2026-06-01T12:51:01.934075+00:00'
+generated_at: '2026-06-01T13:00:31.479730+00:00'
 apm_version: 0.16.0
 dependencies:
 - repo_url: danielmeppiel/java-to-react-modernizer
   host: github.com
-  resolved_commit: a0dd0189d0a594d135d77346c2a737910a329935
+  resolved_commit: 962eda462989d3019b9bc371123792c6ff51a96b
   resolved_ref: main
   package_type: apm_package
   deployed_files:
@@ -20,4 +20,4 @@ dependencies:
     .github/agents/security-deep.agent.md: sha256:e85e1c3c486e31554b5b9b9c0e002a52ef01098dad561619f14945d5b906c653
     .github/agents/security-scan.agent.md: sha256:2e94eb00ecc64ad80604f6cec08b4bf965dc4a3248604b332736df0c78574f86
     .github/agents/verify-synth.agent.md: sha256:02b93035428673e27c563db58ff1e7f1754c614f84d0263962d4c10b0bf7a823
-  content_hash: sha256:eba429fc9152dfee7c09f51e0527d396a3b41537e9f776814bc11e748e89d096
+  content_hash: sha256:dcda3d2c4bc9836ed42c3f8ff465a8801d74904df1d9a66e4060e3fb896f69e3

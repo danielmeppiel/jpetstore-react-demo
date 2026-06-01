@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "skill": "java-to-react-modernizer",
+  "skill_path": "../SKILL.md",
+  "triggers_manifest": "triggers.json",
+  "content_manifests": [],
+  "gates": {
+    "triggers": {
+      "split": "val",
+      "should_fire_rate_min": 0.5,
+      "should_not_fire_rate_max": 0.5
+    }
+  },
+  "stop_list": [
+    "build a new react app",
+    "scaffold a react app",
+    "create a react dashboard from scratch",
+    "upgrade spring boot 2 to 3",
+    "bump the java version to 21",
+    "migrate from junit 4 to junit 5",
+    "deploy the frontend",
+    "deploy to production",
+    "set up ci for the react app",
+    "write unit tests for this service",
+    "explain this java code",
+    "review my pull request"
+  ]
+}
